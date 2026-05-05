@@ -17,7 +17,6 @@ AI-powered GitHub companion for startups. Automatic code reviews, PR summaries, 
 - **AI** - Claude API (Anthropic)
 - **Auth** - GitHub OAuth
 - **Webhooks** - GitHub Webhooks
-- **Hosting** - Render (backend) + Vercel (frontend)
 
 ## How it works
 
