@@ -53,7 +53,7 @@ async def github_callback(code: str):
 
     # Redirect to frontend with token
     frontend_url = os.getenv("FRONTEND_URL")
-    return RedirectResponse(
+    return RedirectResponse()
         f"{frontend_url}/dashboard?token={access_token}&username={user['login']}"
 
 @app.get("/repos")
